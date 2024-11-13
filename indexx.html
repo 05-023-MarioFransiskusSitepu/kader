@@ -4,57 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
-    <hr>
-    <center><h1>Personal Biodata</h1></center>
-    <center><img src="/ggggg.jpeg" width="20%" ></center>
+    <!-- Navbar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#bio">Personal Information</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </div>
 
-    <h2>About Me</h2>
-    <center><p>I’m currently studying at Informatics Engineering at ITERA. From my knowledge i want to make so many things and developing my own skills like my softskills and any other that can be helpful for others.</p></center>
-    <hr>
-    <center><table border="1">
-        <tr>
-          <th>Name</th>
-          <td>Mario Fransiskus Sitepu</td>
-        </tr>
-        <tr>
-          <th>NIM</th>
-          <td>123140023</td>
-        </tr>
-        <tr>
-          <th>Birth Date</th>
-          <td>Mei 11, 2005</td>
-        </tr>
-        <tr>
-          <th>Place of Origin</th>
-          <td>Medan</td>
-        </tr>
-        <tr>
-          <th>Current Place</th>
-          <td>Kos Itera Belwis</td>
-        </tr>
-      </table></center>
-    <h2>Education</h2>
-    <ul>
-        <li>Sarjana (S1) - <a href="www.itera.ac.id">Institut Teknologi Sumatera</a> (2023-?)</li>
-        <li>SMA - <a href="https://http://smaignasiusmedan.sch.id//">SMA IGNATIUS MEDAN</a> (2020-2023)</li>
-        <li>SMP - <a href="https://smpstignasius.sch.id/">SMP ST IGNATIUS MEDAN</a> (2017-2020)</li>
-    </ul>
+    <!-- Main Content -->
+    <div class="main-content">
+        
+        <!-- Header (Profile Section) -->
+        <div class="header" id="about">
+            <img src="ggggg.jpeg" alt="Profile Picture">
+            <h1>Personal Biodata</h1>
+        </div>
 
-    <h2>Expertise</h2>
-    <ul>
-        <li>Still learning C++</li>
-        <li>New in HTML, CSS, and JavaScript</li>
-        <li>Good enough in English</li>
-    </ul>
+        <!-- About Me Section -->
+        <section id="bio">
+            <h2>About Me</h2>
+            <p>I’m currently studying at Informatics Engineering at ITERA. From my knowledge I want to make so many things and developing my own skills like my soft skills and any other that can be helpful for others.</p>
+        </section>
 
-    <h2>Contacts</h2>
-    <ul>
-        <p><strong>Phone/WhatsApp:</strong> 081262553164</p>
-        <p><strong>Email:</strong><a href="https://mail.google.com/mail/?view=cm&fs=1&to=stinart123@gmail.com"> stinart123@gmail.com</a> / <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anselmus.123140020@student.itera.ac.id"> mario.123140023@student.itera.ac.id</a></p>
-    </ul>
+        <!-- Personal Information Section -->
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <td>Mario Fransiskus Sitepu</td>
+                </tr>
+                <tr>
+                    <th>NIM</th>
+                    <td>123140023</td>
+                </tr>
+                <tr>
+                    <th>Birth Date</th>
+                    <td>Mei 11, 2005</td>
+                </tr>
+                <tr>
+                    <th>Place of Origin</th>
+                    <td>Medan</td>
+                </tr>
+                <tr>
+                    <th>Current Place</th>
+                    <td>Kos Itera Belwis</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Sarjana (S1) - <a href="https://www.itera.ac.id">Institut Teknologi Sumatera</a> (2023-?)</li>
+                <li>SMA - <a href="https://smaignasiusmedan.sch.id">SMA IGNATIUS MEDAN</a> (2020-2023)</li>
+                <li>SMP - <a href="https://smpstignasius.sch.id">SMP ST IGNATIUS MEDAN</a> (2017-2020)</li>
+            </ul>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise">
+            <h2>Expertise</h2>
+            <ul>
+                <li>Still learning C++</li>
+                <li>New in HTML, CSS, and JavaScript</li>
+                <li>Good enough in English</li>
+            </ul>
+        </section>
+
+        <!-- Contacts Section -->
+        <section id="contact">
+            <h2>Contacts</h2>
+            <ul>
+                <p><strong>Phone/WhatsApp:</strong> 081262553164</p>
+                <p><strong>Email:</strong>
+                    <a href="mailto:stinart123@gmail.com">stinart123@gmail.com</a> / 
+                    <a href="mailto:mario.123140023@student.itera.ac.id">mario.123140023@student.itera.ac.id</a>
+                </p>
+            </ul>
+        </section>
+
+    </div>
 
 </body>
 </html>
